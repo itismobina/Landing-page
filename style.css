@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5% /* 16px * 62.5 = 1rem   */;
+
+}
+
+body {
+    height: 100vh;
+    font: 1.6rem Helvetican, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #4b4b4b;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: -webkit-body;
+}
+
+header {
+    grid-area: header;
+    background: #F4F3EE;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.info {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin-right: 20px;
+}
+
+.item:hover {
+    border-bottom: .2rem solid #4b4b4b;
+}
+
+.title {
+    color: #4b4b4b;
+    margin: 1rem;
+    font-family: -webkit-body;
+}
+
+.title img {
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.details {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main-right {
+    width: 50%;
+
+}
+
+.main-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.question {
+    font-size: 350%;
+    font-weight: bold;
+    font-family: -webkit-body;
+    margin: 0;
+}
+
+.Description {
+    font-weight: normal;
+}
+
+.realHoney {
+    width: 90%;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.product {
+    width: 15%;
+    border-top: 1px solid #cccccc;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.products img {
+    max-width: 80%;
+}
+
+.buy {
+    font-size: 75%;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    grid-area: header;
+    background: #4b4b4b;
+    color: #ffffff;
+    justify-content: center;
+    padding: 2rem;
+}
